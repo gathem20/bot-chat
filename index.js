@@ -9,7 +9,7 @@ icon.onclick = () => {
   }
 };
 
-const Api_key = "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";
+const Api_key = "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";
 const chatToggle = document.querySelector(".chat-box");
 const sendBtn = document.querySelector(".chat-input #send-btn");
 const chatInput = document.querySelector(".chat-input textarea");
