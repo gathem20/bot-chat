@@ -176,4 +176,7 @@ body.chat-bot-toggle span:last-child {
   #icon {
     display: none;
   }
+  footer {
+    display: none;
+  }
 }
