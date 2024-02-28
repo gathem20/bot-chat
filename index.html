@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bot</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body class="show-chat">
+    <nav>
+      <img src="dark theme icon/moon.png" id="icon" />
+    </nav>
+    <button class="chat-bot-toggle">
+      <span class="material-symbols-outlined">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+
+    <div class="chat-bot">
+      <header>
+        <h2>Chat Bot</h2>
+        <span class="material-symbols-outlined">close</span>
+      </header>
+      <ul class="chat-box">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>
+            Hi There 😊 <br />
+            How can i help you..?
+          </p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." required></textarea>
+        <span id="send-btn" class="material-symbols-outlined">send</span>
+      </div>
+    </div>
+    <footer
+      style="
+        /* color: white; */
+        background: white;
+        position: absolute;
+        font-style: italic;
+        bottom: 0;
+        font-size: 20px;
+      "
+    >
+      Maked by Yousef gathem
+    </footer>
+  </body>
+</html>
